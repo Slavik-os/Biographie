@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+@import url('http://fonts.cdnfonts.com/css/bluu-next');
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+/* font-family: 'Martel Sans', sans-serif; */
+/* font-family: 'Sofia', cursive; */
+* {
+    margin : 0 ; 
+    padding : 0 ;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.4;
+    box-sizing: border-box;
+    
+}
+body {background-color : #10141b;}
+
+/* nav-start */
+.navbar {
+    display: flex;
+    top : 0 ;
+    position : sticky;
+    justify-content: space-around;
+    width : 100%;
+    height: 7vh;
+    background-color : #10141b;
+    text-align: center;
+    -webkit-box-shadow: 2px 10px 15px -2px rgba(0,0,0,0.85); 
+    box-shadow: 2px 10px 15px -2px rgba(0,0,0,0.85);
+
+}
+.navbar span  {
+    margin-top : 10px;
+    font-size : 30px;
+    font-weight: 700;
+    color : white;
+    font-family: 'Harry Potter', sans-serif; 
+    text-transform: uppercase;
+    
+}
+.navbar ul {
+    display: inline-block;
+}
+.navbar ul li {
+    float : left ;
+}
+.navbar li {
+    margin: 20px 0 20px 50px ;
+}
+.navbar li a {
+    color : #FFFFFF;
+    font-size : 14px;
+    font-weight: 700;
+    font-family: 'Harry Potter', sans-serif; 
+    text-transform: uppercase;                                        
+}
+.navbar li:first-child  a {border-bottom: 1px solid rgb(153, 144, 234);}
+
+.navbar li:first-child  a:hover {
+    border :none;
+}
+.navbar li a:hover {
+    border-bottom: 1px solid rgb(153, 144, 234);
+}
+/* nav-end */
+
+/* container-start */
+
+.container {
+    object-fit: cover;
+    background-color : rgba(230, 228, 222, 0.897);
+    background: fixed;
+    /*background-size: 100% 100% cover; */
+    background-image : 
+    linear-gradient(to bottom , rgba(241, 241, 241, 0), #03040f),url('assets/Happy-BigWallpaper.jpg')  ; 
+    background-size : 100% 100% cover ;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color : white;
+    font-family: 'Bluu Next', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-first-section {
+    font-family: 'Griffy', cursive;
+    font-size : 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.container-h1  h1 {
+    
+    font-family : 'Bluu Next', serif;
+    font-size : 47.3px;
+    font-weight:  700;
+}
+
+/* container-end */
+
+/* Auther-content-start */
+.auther-content {
+    width : 100%;
+    height : 100vh;
+    background-color : rgba(230, 228, 222, 0.897);
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+
+.auther-first-section {
+line-height: 30px;
+width : 100%;
+align-items: center;
+justify-content: space-between;
+display: flex;
+flex-direction :row ;
+flex-wrap :wrap;
+justify-content: center;
+
+}
+.wizardImgLogo {
+    border-radius: 50%;
+    width : 50px;
+    height: 50px;
+}
+.penDiv{
+    width: 70px;
+    height: 70px;
+    background : rgb(210, 211, 219) ;
+    border-radius: 50%;
+}
+.penImage{
+    border-radius: 50%;
+    width : 45px;
+    height: 45px;
+}
+
+
+.about-auth {
+    margin : 20px;
+    line-height: 30px;
+    margin-right : 150px;
+}
+.first-about-auth {
+    color : rgb(119, 119, 119) ;
+    font-size : 16px;
+    font-weight: 600;
+    
+}
+.second-about-auth {
+    color : #000;
+    font-size :20px;
+    font-weight: 600;
+    
+} 
+
+.Pub-auth {
+    color : rgb(119, 119, 119) ;
+    font-size : 16px;
+    font-weight: 600;
+    
+}
+.thinnLine{
+    width: 55vw;
+    height: 2px;
+    background-color :rgba(143, 142, 142, 0.801);
+    margin: auto;
+    margin-top : 30px;
+    
+}
+/* Auther-content-end */
+
+/*auther-second-section-start*/
+.auther-second-section{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sofia Pro', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+  background-color :#D0CECA;
+}
+
+.Movies-introduction{
+    font-size : 35px;
+    color : rgb(0,0,0);
+    font-weight : 400;
+    font-family: 'Harry Potter', sans-serif; 
+}
+
+.Movies-Title {
+    color : #000;
+    margin : 50px 0 30px 0px;
+    font-weight: 400;
+    font-size : 30px;
+    font-family: 'Harry Potter', sans-serif; 
+}
+
+.Movies-Content {
+    color : rgb(117, 117, 117);
+    font-size : 20px;
+    font-weight: 300;
+    
+}
+.Movies-Content:last-child {margin-bottom:100px;}
+
+/*auther-second-section-end*/
+
+/*Footer-start*/
+footer {
+    width: 100%;
+    height : 50vh;
+    background-color : #10141b;
+    font-family: 'Sofi Pro' sans-serif;
+}
+
+.footer-content{
+    margin : 40px;
+    border : 1px solid white;
+    height : 100%;
+    
+}
+
+footer ul li  {margin-left : 100px;}
+
+footer ul li a {
+    color :rgba(230, 228, 222, 0.897);
+    text-decoration: none;
+    font-size : 16px; 
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+}
+
+/*Footer-end*/
+
+/*Inside-footer-start*/
+.top-side-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin : auto;
+    width : 90%;
+    height: 40%;
+   text-align: center;
+    margin-top:100px;
+    /* border-bottom : 0.5px solid white; */
+}
+.top-side-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.witcher-img{
+    width:100px;
+    height:100px;
+}
+.footer-dividor{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    background-color: #333; /* Modern Browsers */
+    width : 80%;
+    margin : auto;
+}
+
+
+
+.bottom-side-content{
+    display: flex;
+    color :rgba(230, 228, 222, 0.897);
+    font-family: 'Sofia Pro' sans-serif;
+    margin-top : 30px;
+    justify-content: space-around;
+    
+}
+
+.bottom-side-content p {
+    font-weight: 400;
+    font-size: 14px;
+    color : rgb(159, 161, 173) ;
+    letter-spacing: 0.25;
+    list-style: 20px;
+    
+}
+.bottom-side-content a {
+    text-decoration: underline;
+    color : rgba(22, 122, 236, 0.767);
+    font-size : 20
+}
+
+picture img {
+width: 60px;
+height: 60px;
+margin-left : 20px;
+}
+#DropDown {
+    display: none;
+    position : absolute; 
+    top : 0 ;
+    left : 0 ;
+    padding-left : 20px;
+    color : #fff;
+    font-size : 45px;
+}
+/*Inside-footer-end*/
+
+
+
+/* Responsive Mobile design-start */
+
+@media only screen and (max-width: 950px){
+    /* nav bar */
+    .navbar{
+        position: sticky;
+        top : 0 ; 
+        width : 100%;  
+    }
+    #DropDown {
+        position: absolute;
+        top : 0 ;
+        left : 0 ;
+        display: block;
+        font-size: max(1em, 30px);
+    }
+    #nav-items{
+        background-color : rgb(16, 20, 27);
+        top : 7vh;
+        position: absolute;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #nav-items ul li {
+        display: block;
+        float : none;
+        margin: auto 0;
+        padding: 30px 0px 20px 10px;
+    }
+    #nav-items ul li a {
+        padding-top: 50px;
+        font-size :3.4vw;
+     }
+     #nav-items ul li:last-child {
+         padding-bottom: 20px;
+     }
+     .navbar span {
+        font-size: max(1em, 19px);
+     }
+    .navLogo {
+        display: block;
+        font-size: max(1em, 19px);
+        
+    }
+/* nav bar end *
+
+/* container */
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-size : 100% 100% ;
+    background-repeat: no-repeat;
+    
+}
+.container-first-section {
+    font-size :6vw;
+}
+
+.container-h1 h1{
+    font-size: 5vw;
+    margin-bottom : 50px;
+}
+
+/* container end */
+
+.auther-content {
+    width: 100%; 
+}
+.first-about-auth ,.second-about-auth{
+    font-size : 4vw;
+    color : #000;
+    padding : 20px;
+}
+.Pub-auth{color :#000;}
+.about-auth{
+    width: 100%;
+    margin : 0 auto ;
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+
+}
+.wizardImgLogo {
+    margin-top: 50px;
+}
+
+.thinnLine{
+    width : 90vw;
+}
+
+/* cards container */
+
+/* cards container end */
+/* Responsive Mobile deisgn-end*/
+
+.Movies-introduction{
+    margin-top : 100px;
+    font-size : 5vh;
+}
+.Movies-Content{
+    font-size : 16px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border : none 
+
+}
+.top-side-content {
+    margin : auto;
+    display: flex;
+}
+.top-side-content ul li a   {
+    font-size : 15px;
+    margin-bottom : 10px;
+}
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+@import url('http://fonts.cdnfonts.com/css/bluu-next');
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+* {
+    margin : 0 ;
+    padding : 0 ;   
+    text-decoration: none;
+   
+}
+
+.linkedStyle{
+    color :  #CCA94E;
+}
+
+.cards-container {
+    width : 100%;
+    display: flex;
+    height: 100%;
+    background-color : #D0CECA;
+    align-items :center;
+    justify-content: center;
+    font-family: "Sofia Pro", sans-serif;
+}
+
+.cards-items {
+    background-color : rgba(230, 228, 222, 0.897);
+    width : 50vw;
+    margin : 50px;
+    border-radius:  10%;
+    text-align: center;
+    /* background : url('assets/harryPurple.jpg') no-repeat center center fixed;
+    background-size : cover; */
+}
+
+/* cards-styling-image-start */
+
+.cards-item1 {
+    background : 
+    linear-gradient(to bottom , rgba(241, 241, 241, 0), #03040f),url('assets/deathlyHallows.webp')  ;
+    background-size: cover;
+} 
+.cards-item2 {
+    background : 
+    linear-gradient(to bottom , rgba(241, 241, 241, 0), #03040f),url('assets/prisenorOfascabar.webp')  ;
+    background-size: cover;
+} 
+
+.cards-item3 {
+    background : 
+    linear-gradient(to bottom , rgba(241, 241, 241, 0), #03040f),url('assets/Order-Of-The-Phoenix.webp')  ;
+    background-size: cover;
+}
+/* cards-stylgin-image-end */
+/* .cards-items span h1 b {
+    font-size : 40px;
+    display: inline-block;
+    color : #cca84ee5;
+    margin : 50px 0px 20px 0px;
+    font-family: 'Harry Potter', sans-serif; 
+    /* color : rgb(119, 119, 119) ;     
+} */
+
+.cards-items span h2 {
+    display: block ;
+    font-weight: 600;
+    font-size : 25px;
+    margin : 30px 0px -40px 0px;
+    font-family: 'Harry Potter', sans-serif; 
+    color : rgb(199, 198, 198);
+}
+
+.cards-items span p {
+    display: block;
+    font-size : 15px;
+    margin : 50px 0px 20px 0px;
+    color : rgb(211, 210, 210);
+    font-weight: lighter;
+}
+
+.author-image {
+    margin-top : 150px;
+    width : 200px;
+    height: 200px;
+    border-radius : 100px;
+
+}
+
+.cards-item2 span h2  ,.cards-item3 span h2 {
+    display: block;
+    margin-top : 350px;
+}
+
+/* Hover over the cards-start */
+
+.cards-items:hover {
+    opacity: 60%;
+}
+
+/*Hove ovrer the cards-end*/
+
+/*Mobile responsive design*/
+
+@media only screen and (max-width: 950px) {
+   
+    .cards-container{
+        background-color : rgba(230, 228, 222, 0.897);
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+    }
+    .cards-items {
+        margin : 10vh auto;
+        width : 90%;
+        flex-wrap: wrap;
+       
+        
+    }
+    .cards-items span p {
+        font-size : 1.5vh;
+    }
+ 
+    .author-image{
+        margin : 10vh auto;
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+
+    .cards-item2 span h2 , .cards-item3 span h2 {
+        margin : 24vh auto ;
+        margin-bottom : 0;
+        
+
+    }
+    .cards-item2 p  .cards-item2 span p{
+       width: 100%;
+       word-wrap: break-word;
+       
+    }
+}
+/*Mobile responsive desgin end*/
